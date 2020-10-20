@@ -1,0 +1,67 @@
+{
+  "id": "string",
+  "organization_id": "string",
+  "created_at": "string",
+  "status": "string",
+  "user": {
+    "id": "string",
+    "organization_user_id": "string",
+    "metadata": {}
+  },
+  "consents": {
+    "channels": [
+      {
+        "id": "string",
+        "enabled": true,
+        "metadata": {}
+      }
+    ],
+    "purposes": [
+      {
+        "id": "string",
+        "enabled": true,
+        "metadata": {},
+        "channels": [
+          {
+            "id": "string",
+            "enabled": true,
+            "metadata": {}
+          }
+        ],
+        "preferences": [
+          {
+            "id": "string",
+            "enabled": true,
+            "metadata": {},
+            "channels": [
+              {
+                "id": "string",
+                "enabled": true,
+                "metadata": {}
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "vendors": {
+      "enabled": [
+        "string"
+      ],
+      "disabled": [
+        "string"
+      ]
+    }
+  },
+  "proofs_id": [
+    "string"
+  ],
+  "proofs": [
+    "string"
+  ],
+  "delegate": {
+    "id": "string",
+    "name": "string",
+    "metadata": {}
+  }
+}
